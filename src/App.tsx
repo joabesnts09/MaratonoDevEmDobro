@@ -1,6 +1,7 @@
-import { HeaderComponent } from "./components/HeaderComponent"
-import { MainComponent } from "./components/MainComponent"
-import { SectionComponent } from "./components/SectionComponent"
+import { Header } from "./components/Header"
+import { Main } from "./components/Main"
+import { Section } from "./components/Section"
+// import {resetcss} from './styles/reset.css'
 
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
 
   return (
     <>
-      <HeaderComponent/>
-      <MainComponent/>
-      <SectionComponent/>
+      <Header/>
+      <Main/>
+      <Section/>
     </>
   )
 }

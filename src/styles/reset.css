@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/chalet');
+
+@font-face {
+	font-family: "ChaletComprime";
+	src: url("../fontes/ChaletComprime.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	background-color: #282828;
+	color: #fff;
+	font-family: 'Chalet', sans-serif;
+}
